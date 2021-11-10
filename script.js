@@ -23,7 +23,7 @@ function game() {
     
 }
 
-console.log(game());
+// console.log(game());
 
 
 function declareWinner() {
@@ -39,7 +39,7 @@ function declareWinner() {
     }
 }
 
-console.log(declareWinner());
+// console.log(declareWinner());
 
 
 function userInput() {
@@ -61,8 +61,8 @@ function playRound(playerSelection, computerSelection) {
     computerSelection = computerPlay()
      if (playerSelection == computerSelection) {
          alert("Tie Game! Play again");
-         return "Tie Game/n/Computer Score: " +
-         computerScore + "/n/Your Score: " + playerScore;
+         return "Tie Game/nComputer Score: " +
+         computerScore + "/nYour Score: " + playerScore;
      } else if ((computerSelection == "rock" && playerSelection == "scissors" ||
                 computerSelection == "scissors" && playerSelection == "paper" ||
                 computerSelection == "paper" && playerSelection == "rock")) {
@@ -76,3 +76,19 @@ function playRound(playerSelection, computerSelection) {
                 }
             
     }
+
+
+
+    let btnOne = document.querySelector("#btn-container");
+
+    btnOne.addEventListener("click", () => {
+       
+        alert(game());
+        
+    });
+
+    
+
+    
+
+    

@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=
+Montserrat:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    
+    <main id="main-content">
+        <h1 id="title">Computer Vs Man</h1>
+
+        <p>Computers are threatening to take over planet earth...</p>
+
+        <p>Planet earth will only be saved if you can defeat computers in a game of Rock, 
+            Paper and Scissors.</p>
+
+        <p> Can you save planet earth?</p>
+
+        <p id="cta">Choose your weapon</p>
+
+        <div id="container">
+            <div id="btn-container">
+                <button id="btnOne">Rock</button>
+                <button id="btnTwo">Paper</button>
+                <button id="btnThree">Scissors</button>
+            </div>
+
+            <div id="score">
+                <p class="label">Man</p>
+                <p class="label">Computer</p>
+            </div>
+
+            <div id="score-container">
+                <div id="player-score" class="score">0</div>
+                <div id="computer-score" class="score">0</div>
+            </div>
+
+            <div id="results-container"></div>
+
+        </div>
+
+
+    </main>
+
+    <div id="end-alert" class="disappear">
+        <div id="end-desc"></div>
+        <a id="retry-btn"></a>
+    </div>
 
 
 
